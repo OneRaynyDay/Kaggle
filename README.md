@@ -13,7 +13,7 @@ and instructional purposes in the 2016 spring quarter. There are 3 main contribu
 to this repo: [Ray Zhang](https://github.com/OneRaynyDay), [Jesse Cai](https://github.com/jcaip),
 and [Joraaver Chahal](https://github.com/abcde13).
 
-This tackles the [Satander Custorm Satisfaction](https://www.kaggle.com/c/santander-customer-satisfaction)
+This tackles the [Santander Custorm Satisfaction](https://www.kaggle.com/c/santander-customer-satisfaction)
 competition hosted by [Kaggle](https://www.kaggle.com/)
 
 
