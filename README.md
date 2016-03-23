@@ -14,7 +14,7 @@ to this repo: [Ray Zhang](https://github.com/OneRaynyDay), [Jesse Cai](https://g
 and [Joraaver Chahal](https://github.com/abcde13).
 
 This tackles the [Santander Custorm Satisfaction](https://www.kaggle.com/c/santander-customer-satisfaction)
-competition hosted by [Kaggle](https://www.kaggle.com/)
+competition hosted by [Kaggle](https://www.kaggle.com/).
 
 
 It will be updated as progress is made throughout the quarter. 
