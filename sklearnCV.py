@@ -56,7 +56,7 @@ X_pca = decomposition.PCA(n_components=2).fit_transform(X_train)
 y_orig = y_train;
 
 
-#scale_factor = 0
+#scale_factor = 5
 #X_train = np.concatenate((X_train, SMOTE(ones, scale_factor*100, 5)))
 #y_train = np.concatenate((y_train, np.ones(ones.shape[0]*scale_factor)))
 
@@ -96,7 +96,7 @@ print(X_cv.shape)
 #PASSIVE AGRESSIVE CLASSIFIER
 #clf = linear_model.PassiveAggressiveClassifier(fit_intercept=False, n_iter=20, loss='hinge_squared')
 #parameters = { 'gamma' : np.exp2(np.arange(-15,3,3))}
-clf = svm.SVC(C=8192, gamma=0.00192)
+clf = svm.SVC(C=8192, gamma=0.00192, class_weight='balanced')
 #clf = grid_search.GridSearchCV(sgd, parameters, scoring='roc_auc', n_jobs = -1)
 
 print("TRAINING CLASSIFIER")
